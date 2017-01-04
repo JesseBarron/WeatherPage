@@ -1,0 +1,83 @@
+body
+{
+  background-image: url(http://img.wallpaperfolder.com/f/501733A0C95F/free-sunny-day-paul-senna.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#title
+{
+  color: white;
+  font-weight: bold;
+}
+button
+{
+  position: absolute;
+  z-index: 10;
+  right: 30px;
+  top: 20px;
+}
+
+h3,h4,ul{
+  display: block;
+  background-color: rgba(300,344,300,.7387419232);
+  position: relative;
+  font-weight: bold;
+
+}
+.day_strip
+{
+  position: relative;
+  z-index: 10;
+  transition: background-color 1s;
+}
+
+#weather_0.day_strip:hover{
+  background-image: url();
+}
+#weather_1.day_strip:hover{
+  background-image: url();
+}
+#weather_2.day_strip:hover{
+  background-image: url();
+}
+#weather_3.day_strip:hover{
+  background-image: url();
+}
+#weather_4.day_strip:hover{
+  background-image: url();
+}
+#ti{
+  font-weight: bold;
+}
+
+#icn{
+  height: auto;;
+  width: auto;
+}
+
+h3,h4
+{
+  text-align: justify;
+  padding-bottom: 12px;
+
+}
+
+ul
+{
+  border-style: solid;
+  border-width: 1.4px;
+  border-color: white;
+  padding: -2px;
+}
+
+li
+{
+  list-style: none;
+  padding: 6px;
+  padding-left: 20%;
+}
+
+#current_weather li
+{
+  padding-left: 45%
+}
