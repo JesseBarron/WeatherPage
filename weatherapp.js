@@ -185,7 +185,7 @@ $(document).ready(function(){
   //End F/C click Event-------------------------------------------------------
 
 //This changes the background-image for the actall pace depending on what the current weahter is.
-$("body").css({"background-image":"url("+imgArray[0]+")"});
+//$("body").css({"background-image":"url("+imgArray[0]+")"});
 
 //This sets the background-image to the different dates....
   $("#weather_0.day_strip").on("mouseover",function(event){
